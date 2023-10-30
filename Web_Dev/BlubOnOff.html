@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+        display: block;
+        margin-top: 10px;
+        margin-left: 15%;
+    }
+    .btn{
+        padding: 15px;
+        margin: 15px;
+        margin-left: 20%;
+        background-color: bisque;
+        font-size: 20px;
+    }
+</style>
+<body>
+    <img  id="blub" src="img/blub_off.jpg" alt="">
+    <button id="btn1" class="btn">Turn On</button>
+
+    <script>
+        let btn = document.getElementById('btn1')
+        let blub = document.getElementById('blub')
+        document.addEventListener('click',btn1)
+        function btn1(e){
+            if(btn.textContent.includes("Turn On")){
+                blub.src ="img/blub_on.jpg"
+                btn.textContent = "Turn Off"
+            }
+            else{
+                blub.src ="img/blub_off.jpg"
+                btn.textContent = "Turn On"
+            }
+        }
+    </script>
+</body>
+</html>

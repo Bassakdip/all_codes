@@ -1,0 +1,88 @@
+body{
+    font-style:italic;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/new.jpg);
+    background-repeat: no-repeat;
+    background-size:1535px; 
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+}
+.left img{
+    width: 100px;
+    filter:invert(100%);
+}
+.left p{
+    text-align:center;
+    font-size: small;
+    line-height: 0px;
+    font-size: 15px;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 25px auto;
+}
+.right{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+.navbar li a:hover {
+    color:red;
+}
+.button{
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+.button:hover{
+    color: rgb(97, 202, 158);
+}
+.container{
+    font-size: 20px;
+    padding: 160px 250px;
+    color: aqua;
+}
+h3{
+    color: rgb(142, 120, 221);
+    font-size: 40px;
+    position: absolute;
+    right: 30px;
+    margin-top: 30px;
+    padding: 66px 100px;
+    width: 20%;
+}
+.container span{
+    color: rgb(238, 102, 49);
+}
+.from-pos input{
+    top: auto;
+    display: block;
+    width: 150px;
+    padding: 1px 2px;
+    border: 3px solid rgb(189, 5, 5);
+    border-radius: 7px;
+}
+.b{
+    display: block;
+    margin: 15px 35px;
+    filter:invert(100%);
+}

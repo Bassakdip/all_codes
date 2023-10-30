@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button {
+        background-color: aqua;
+        width: 15%;
+        padding: 10px;
+        margin: 20px;
+    }
+</style>
+
+<body>
+    <button>roll no 1: rahul</button>
+    <script>
+        let select = document.querySelector('button');
+        select.addEventListener('click', inputName)
+
+        function inputName() {
+            let name = prompt('Enter Student Name');
+            select.textContent='roll no 1 : ' + name;
+        }
+    </script>
+
+</html>

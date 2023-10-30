@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD APP</title>
+</head>
+
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    .emplist {
+        border: 10px solid gray;
+        background-color: antiquewhite;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        width: 40%;
+    }
+
+    .pos {
+        top: auto;
+        display: block;
+        width: 100px;
+        padding: 6px 80px;
+    }
+
+    .area {
+        padding-right: 22em;
+        border-radius: 6px;
+        
+    }
+
+    button {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .list {
+        padding: 4em;
+        margin: auto;
+        width: 65%;
+        background-color: beige;
+    }
+
+    body>table {
+        width: 80%;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table.list {
+        width: 70%;
+    }
+
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    
+</style>
+
+<body>
+    <h1>Crud Application</h1>
+    <form class="emplist" onsubmit="event.preventDefault();onFromSubmit();" autocomplete="off">
+        <div class="pos">
+
+            Full Name : <input class=" area" type="text" name="full name">
+        </div>
+        <div class="pos">
+            <label>EMP Id :</label>
+            <input class=" area" type="text" name="emp id">
+        </div>
+        <div class="pos">
+            <label>Salary : </label>
+            <input class=" area" type="text" name="salary">
+        </div>
+        <div class="pos">
+            <label>City : </label>
+            <input class=" area" type="text" name="city">
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+    <table class="list" id="employeeList">
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>EMP Id</th>
+                <th>Salary</th>
+                <th>City</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script>
+
+    </script>
+</body>
+
+</html>

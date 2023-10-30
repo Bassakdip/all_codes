@@ -1,0 +1,12 @@
+p{
+    color:red;
+    background-color: rgb(182, 226, 182);
+    font-style: italic;
+}
+span{
+    font-weight: bold;
+    font-size: 18px;
+}
+h3{
+    color: blue;
+}

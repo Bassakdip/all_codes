@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create a Form</title>
+</head>
+<body>
+  <h2> The Name Attribute:-</h2>
+  <form action="/action_page.php" target="_blank" autocomplete="on">
+    <!--<label for="fname"> <b>First Name</b> </label><br>-->
+    <div> <strong>Fast Name:</strong>
+    <input type="text" id="fname" name="fname" autofocus></div><br>
+    
+    <label for="lname"> <b>Last Name</b></label><br>
+    <input type="text" id="lname" name="lname"><br>
+
+    <label for="email"> </label><b>Enter your Email</b> </label><br>
+    <input type="text" id="email" size="25"><br><br>
+
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <div class="mb-3">
+    <label for="formFile" class="form-label">Default file input example</label>
+    <input class="form-control" type="file" id="formFile">
+  </div>
+  <div class="mb-3">
+    <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+    <input class="form-control" type="file" id="formFileMultiple" multiple>
+  </div>
+  <div class="mb-3">
+    <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+    <input class="form-control" type="file" id="formFileDisabled" disabled>
+  </div>
+  <div class="mb-3">
+    <label for="formFileSm" class="form-label">Small file input example</label>
+    <input class="form-control form-control-sm" id="formFileSm" type="file">
+  </div>
+  <div>
+    <label for="formFileLg" class="form-label">Large file input example</label>
+    <input class="form-control form-control-lg" id="formFileLg" type="file">
+  </div>
+</body>
+</html>
